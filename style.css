@@ -6,6 +6,20 @@
 
 body {
     min-height: 100vh;
-
     background: linear-gradient(#9568E1, #5AA4C9);
+
+    display: flex;
+}
+
+.main-container,
+.main-container form,
+.alternative-auths,
+.side-img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container,
+.side-img-container {
+    width: 50%;
 }

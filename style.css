@@ -43,8 +43,7 @@ body {
     gap: 16px;
 }
 
-/* Sign up form style */
-
+/*Form tytle */
 .title {
     align-self: flex-start;
 }
@@ -54,6 +53,7 @@ body {
     font-weight: 600;
 }
 
+/* Form field style */
 .form-field {
     flex-direction: row;
 
@@ -87,17 +87,9 @@ body {
 .form-field input::placeholder {
     color: white;
 }
+/* Form icons styling */
 
-.terms-agreement span{
-    color: white;
-    cursor: pointer;
-}
-
-.alternative-auths {
-    text-align: center;
-    gap: 16px;
-}
-
+/* Form buttons style */
 .btn-submit-wrap button,
 .btn-google-sign {
     width: 100%;
@@ -125,6 +117,17 @@ body {
 
     margin-right: 0.2rem;
     vertical-align: middle;
+}   /* Google logo icon*/
+
+/* Terms / Alternative authentication style */
+.terms-agreement span{
+    color: white;
+    cursor: pointer;
+}
+
+.alternative-auths {
+    text-align: center;
+    gap: 16px;
 }
 
 .alternative-auths a {
@@ -132,26 +135,26 @@ body {
     text-decoration: underline;
 }
 
+/* Right side image styling */
 .side-img-container {
     align-items: end;
     justify-content: center;
 }
 
 .side-img-container img.img-component {
-
     width: 100%;
     margin-right: -80px;
 }
 
+/* Transform animation for image */
 .img-component {
     transition: transform 0.6s ease; /* Smooth transition for scaling */
     transform-origin: center center; /* Ensure the shrink effect is centered */ 
 }
   
-  .img-component:hover {
-    transform: scale(0.95); /* Shrink the image to 90% of its original size */
-  }
-  
+.img-component:hover {
+transform: scale(0.96); /* Shrink the image to 90% of its original size */
+}
 
 /* Scrollbar styling */
 ::-webkit-scrollbar {

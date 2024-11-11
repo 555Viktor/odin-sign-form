@@ -10,7 +10,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(#9568E1, #5AA4C9);
+    background: linear-gradient(#733dcf, #3b98c7);
 
     display: flex;
 }
@@ -60,9 +60,17 @@ body {
 
     padding-left: 1rem;
 
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    
     background: none;
     outline: none;
     border: none;
+}
+
+.form-field input::placeholder {
+    color: white;
 }
 
 .terms-agreement span{
@@ -70,6 +78,10 @@ body {
     cursor: pointer;
 }
 
+.alternative-auths {
+    text-align: center;
+    gap: 16px;
+}
 .btn-submit-wrap button,
 .btn-google-sign {
     width: 100%;

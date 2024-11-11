@@ -56,6 +56,7 @@ body {
 
 .form-field {
     flex-direction: row;
+
     border: 2px solid white;
     border-radius: 4px;
 
@@ -76,6 +77,7 @@ body {
     background: none;
     outline: none;
     border: none;
+    
 }
 
 .form-field:focus-within{
@@ -141,20 +143,25 @@ body {
     margin-right: -80px;
 }
 
+.img-component {
+    transition: transform 0.6s ease; /* Smooth transition for scaling */
+    transform-origin: center center; /* Ensure the shrink effect is centered */ 
+}
+  
+  .img-component:hover {
+    transform: scale(0.95); /* Shrink the image to 90% of its original size */
+  }
+  
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
     width: 12px; 
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #641c6e;
+    background: inherit;
     border-radius: 12px;
 }
 ::-webkit-scrollbar-track {
     background: inherit; 
 }
-
-::-webkit-scrollbar-horizontal {
-    height: 8px; 
-}
-

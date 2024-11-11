@@ -13,11 +13,13 @@ body {
     background: linear-gradient(#733dcf, #3b98c7);
 
     display: flex;
+    overflow-x: hidden;
 }
 
 /* Flex layout */
 .main-container,
 .main-container form,
+.title,
 .alternative-auths,
 .side-img-container {
     display: flex;
@@ -33,6 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 16px;
+
 }
 
 .main-container form {
@@ -115,4 +118,32 @@ body {
 .alternative-auths a {
     color: white;
     text-decoration: underline;
+}
+
+.side-img-container {
+    align-items: end;
+    justify-content: center;
+}
+
+.side-img-container img.img-component {
+
+    width: 100%;
+    margin-right: -80px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #641c6e;
+    border-radius: 12px;
+}
+::-webkit-scrollbar-track {
+    background: inherit; 
+}
+
+::-webkit-scrollbar-horizontal {
+    height: 8px; 
 }

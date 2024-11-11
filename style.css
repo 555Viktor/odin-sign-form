@@ -18,8 +18,9 @@ body {
 
 /* Flex layout */
 .main-container,
-.main-container form,
 .title,
+.form-field,
+.main-container form,
 .alternative-auths,
 .side-img-container {
     display: flex;
@@ -44,12 +45,17 @@ body {
 
 /* Sign up form style */
 
+.title {
+    align-self: flex-start;
+}
+
 .title h1 {
     color: white;
     font-weight: 600;
 }
 
 .form-field {
+    flex-direction: row;
     border: 2px solid white;
     border-radius: 4px;
 
@@ -70,6 +76,10 @@ body {
     background: none;
     outline: none;
     border: none;
+}
+
+.form-field:focus-within{
+    border: 3px solid rgb(43, 20, 147);
 }
 
 .form-field input::placeholder {
@@ -147,3 +157,4 @@ body {
 ::-webkit-scrollbar-horizontal {
     height: 8px; 
 }
+

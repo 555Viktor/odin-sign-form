@@ -63,7 +63,7 @@ body {
     color: white;
     font-weight: 600;
     font-size: 1rem;
-    
+
     background: none;
     outline: none;
     border: none;
@@ -82,6 +82,7 @@ body {
     text-align: center;
     gap: 16px;
 }
+
 .btn-submit-wrap button,
 .btn-google-sign {
     width: 100%;
@@ -101,4 +102,12 @@ body {
     color: white;
     border: 2px solid white;
     background: none;
+}
+
+.btn-google-sign img.google-logo {
+    width: 24px;
+    height: 24px;
+
+    margin-right: 0.2rem;
+    vertical-align: middle;
 }

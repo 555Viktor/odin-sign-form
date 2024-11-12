@@ -31,7 +31,7 @@
 
             <div class="form-field">
                 <label for="phone-num-input"><i class="fa-solid fa-phone"></i></label>
-                <input type="tel" id="phone-num-input" placeholder="Phone Number *" required>
+                <input type="tel" id="phone-num-input" placeholder="Phone Number *" required pattern="^\+?[1-9]\d{1,14}$" maxlength="15">
             </div>
 
             <div class="form-field">
@@ -47,7 +47,7 @@
 
             <div class="terms-agreement">
                 <p>
-                    <input type="checkbox" required> I agree to the <span>Terms</span> of <span>Service and Privacy Policy</span>
+                    <input class="terms-checkbox" type="checkbox" required> I agree to the <span>Terms</span> of <span>Service and Privacy Policy</span>
                 </p>
             </div>
 

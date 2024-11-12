@@ -21,6 +21,7 @@ body {
 .title,
 .form-field,
 .main-container form,
+.terms-agreement,
 .alternative-auths,
 .side-img-container {
     display: flex;
@@ -195,3 +196,6 @@ transform: scale(0.96); /* Shrink the image to 90% of its original size */
 }
 
 
+.terms-checkbox {
+    transform: scale(1.2);
+}

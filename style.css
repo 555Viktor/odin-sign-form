@@ -43,7 +43,7 @@ body {
     gap: 16px;
 }
 
-/*Form tytle */
+/*Form title */
 .title {
     align-self: flex-start;
 }
@@ -51,6 +51,7 @@ body {
 .title h1 {
     color: white;
     font-weight: 600;
+    
 }
 
 /* Form field style */

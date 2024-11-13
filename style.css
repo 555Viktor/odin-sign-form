@@ -203,6 +203,8 @@ body {
     background: inherit; 
 }
 
+/* Medium / small screen media query */
+
 @media (max-width: 762px) {
 
     body {

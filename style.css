@@ -12,6 +12,7 @@
 body {
     min-height: 100vh;
     background: linear-gradient(#733dcf, #3b98c7);
+    background-attachment: fixed;
 
     display: flex;
     overflow-x: hidden;
@@ -38,7 +39,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 16px;
-
 }
 
 .main-container form {
@@ -153,6 +153,10 @@ body {
     cursor: pointer;
 }
 
+#terms-checkbox {
+    transform: scale(1.2);
+}
+
 .alternative-auths {
     text-align: center;
     gap: 16px;
@@ -170,7 +174,9 @@ body {
 }
 
 .side-img-container img.img-component {
+    max-height: 80%;
     width: 100%;
+
     margin-right: -50px;
 }
 
@@ -181,7 +187,7 @@ body {
 }
   
 .img-component:hover {
-transform: scale(0.98); /* Shrink the image to 90% of its original size */
+    transform: scale(0.98); /* Shrink the image to 90% of its original size */
 }
 
 /* Scrollbar styling */
@@ -197,6 +203,38 @@ transform: scale(0.98); /* Shrink the image to 90% of its original size */
     background: inherit; 
 }
 
-#terms-checkbox {
-    transform: scale(1.2);
+@media (max-width: 762px) {
+
+    body {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+        margin-block: 2rem;
+    }
+
+    .main-container {
+        width: 60%;
+    }
+
+    .img-component {
+        height: 20%;
+        margin: 0;
+    }
+
+    .terms-agreement {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        margin-block: 1rem;
+    }
+
+    .main-container {
+        min-width: 80%;
+    }
+
 }

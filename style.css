@@ -190,18 +190,6 @@ body {
     transform: scale(0.98); /* Shrink the image to 90% of its original size */
 }
 
-/* Scrollbar styling */
-::-webkit-scrollbar {
-    width: 12px; 
-}
-
-::-webkit-scrollbar-thumb {
-    background: inherit;
-    border-radius: 12px;
-}
-::-webkit-scrollbar-track {
-    background: inherit; 
-}
 
 /* Medium / small screen media query */
 

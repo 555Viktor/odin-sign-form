@@ -86,8 +86,8 @@ body {
 }
 
 .form-field:focus-within{
-    border: 3px solid #0a0a0a;
-    box-shadow: rgba(254, 254, 254, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.107) 0px 18px 36px -18px inset;
+    border: 3px solid rgba(0, 0, 0, 0.550);
+    box-shadow: rgba(15, 4, 4, 0.15) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px inset;
 }
 
 .form-field input::placeholder {
@@ -145,10 +145,10 @@ body {
 
     margin-right: 0.2rem;
     vertical-align: middle;
-}   /* Google logo icon*/
+}
 
 /* Terms / Alternative authentication style */
-.terms-agreement span{
+.terms-agreement a{
     color: #fafafa;
     cursor: pointer;
 }
@@ -181,7 +181,7 @@ body {
 }
   
 .img-component:hover {
-transform: scale(0.96); /* Shrink the image to 90% of its original size */
+transform: scale(0.98); /* Shrink the image to 90% of its original size */
 }
 
 /* Scrollbar styling */
@@ -197,7 +197,6 @@ transform: scale(0.96); /* Shrink the image to 90% of its original size */
     background: inherit; 
 }
 
-
-.terms-checkbox {
+#terms-checkbox {
     transform: scale(1.2);
 }

@@ -1,5 +1,8 @@
 # Sign-Up Page 🔐
 
+![Screenshot](assets/sign-up-preview.png)
+> **Design Credit**: The visual design for this project was created by **[**Rozha Giya**](https://www.figma.com/@R_G)**, while all coding and implementation were done by **[me](https://github.com/555Viktor)**
+
 ## Project Overview  
 This is a frontend-only **Sign-Up Page** created as a **CSS exercise** for **The Odin Project**. The page is designed to be user-friendly and responsive, allowing users to enter information and interact with the sign-up form. It emphasizes CSS styling techniques to achieve a smooth UI/UX.
 
@@ -51,6 +54,3 @@ To get started with this project locally:
 
 2. **Responsive Design**:  
    - The form layout adjusts for all screen sizes, ensuring quality UX for desktop and mobile.
-
-![Screenshot](assets/sign-up-preview.png)
-> **Design Credit**: The visual design for this project was created by **[**Rozha Giya**](https://www.figma.com/@R_G)**, while all coding and implementation were done by **[me](https://github.com/555Viktor)**

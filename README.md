@@ -47,6 +47,7 @@ To get started with this project locally:
    - Check the box to agree to the terms and conditions.
    - Click on "Create" to submit.
    - Alternatively sign up with Google
+   - If you have an account, login
 
 2. **Responsive Design**:  
    - The form layout adjusts for all screen sizes, ensuring quality UX for desktop and mobile.

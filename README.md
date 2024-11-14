@@ -54,3 +54,4 @@ To get started with this project locally:
 ## Acknowledgements  
 This project was built as part of **The Odin Project**'s curriculum.  
 > **Design Credit**: The visual design for this project was created by **[**Rozha Giya**](https://www.figma.com/@R_G)**, while all coding and implementation were done by me.
+![Screenshot](assets/sign-up-preview)

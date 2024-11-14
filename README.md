@@ -52,4 +52,4 @@ To get started with this project locally:
    - The form layout adjusts for all screen sizes, ensuring quality UX for desktop and mobile.
 
 ![Screenshot](assets/sign-up-preview.png)
-> **Design Credit**: The visual design for this project was created by **[**Rozha Giya**](https://www.figma.com/@R_G)**, while all coding and implementation were done by me.
+> **Design Credit**: The visual design for this project was created by **[**Rozha Giya**](https://www.figma.com/@R_G)**, while all coding and implementation were done by **[me](https://github.com/555Viktor)**

@@ -3,6 +3,9 @@
 ## Project Overview  
 This is a frontend-only **Sign-Up Page** created as a **CSS exercise** for **The Odin Project**. The page is styled to be clean and user-friendly, it allows users to input information and interact with the sign-up form. The focus is placed on CSS styling techniques, with an emphasis on achieving smooth UI/UX.
 
+## Live Preview
+Check out the deployed project here: Sign-Up Page Live Preview https://555viktor.github.io/odin-sign-up/
+
 ## Features  
 The sign-up form includes the following fields and options:
 
@@ -18,7 +21,7 @@ The sign-up form includes the following fields and options:
 
 ## Technologies Used  
 - **HTML** – Provides the form structure and layout.
-- **CSS** – Used for styling the form, creating visual cues, and ensuring responsiveness across devices.
+- **CSS** – Used for styling the form and ensuring responsiveness across devices.
 - **JavaScript** - Applied for basic form validation.
 
 ## Installation

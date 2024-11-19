@@ -203,6 +203,14 @@ body {
     color: white;
 }
 
+.footer a i {
+    transition: transform 1.4s ease;
+}
+
+.footer a i:hover {
+    transform: scale(1.2);
+}
+
 .footer a {
     text-decoration: none;
     color: white;

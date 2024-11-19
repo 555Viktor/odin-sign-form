@@ -117,11 +117,12 @@ body {
 .btn-submit-wrap button {
     color: #000000b8;
     background: #fafafa;
-    transition: color 0.4s ease;
 }
 
 .btn-submit-wrap button:hover{
+    transition: color 0.4s ease;
     transition: background 0.7s ease;
+    
     background: none;
     color: #fafafa;
 }

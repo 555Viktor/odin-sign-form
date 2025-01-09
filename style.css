@@ -189,33 +189,6 @@ body {
 .img-component:hover {
     transform: scale(0.98); /* Shrink the image to 90% of its original size */
 }
-/* Form footer styling */
-.footer {
-    padding-block: 0.5rem;
-    padding-inline: 1rem;
-
-    border-radius: 12px;
-    background: rgba(128, 0, 128, 0.9);
-
-    font-size: 1.1rem;
-}
-
-.footer span {
-    color: white;
-}
-
-.footer a i {
-    transition: transform 1.4s ease;
-}
-
-.footer a i:hover {
-    transform: scale(1.2);
-}
-
-.footer a {
-    text-decoration: none;
-    color: white;
-}
 
 /* Medium / small screen media query */
 
